@@ -1,0 +1,60 @@
+Microsoft Windows [Version 10.0.19045.2604]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\ThinkPad>cd Documents
+
+C:\Users\ThinkPad\Documents>cd project
+
+C:\Users\ThinkPad\Documents\project>cd whatsapp-api
+
+C:\Users\ThinkPad\Documents\project\whatsapp-api>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (whatsapp-api)
+version: (1.0.0)
+description: whatsapp api by kulo
+entry point: (index.js) app.js
+test command:
+git repository:
+keywords: whatsapp-api, node.js
+author: rian bs
+license: (ISC) IT
+Sorry, license should be a valid SPDX license expression (without "LicenseRef"), "UNLICENSED", or "SEE LICENSE IN <filename>".
+license: (ISC) MIT
+About to write to C:\Users\ThinkPad\Documents\project\whatsapp-api\package.json:
+
+{
+  "name": "whatsapp-api",
+  "version": "1.0.0",
+  "description": "whatsapp api by kulo",
+  "main": "app.js",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "mysql2": "^3.1.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.19.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp-api",
+    "node.js"
+  ],
+  "author": "rian bs",
+  "license": "MIT"
+}
+
+
+Is this OK? (yes) yes
+
+C:\Users\ThinkPad\Documents\project\whatsapp-api>

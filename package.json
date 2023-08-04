@@ -1,0 +1,23 @@
+{
+  "name": "wabot-api",
+  "version": "1.0.0",
+  "description": "wabot api by kulo",
+  "main": "app.js",
+  "scripts": {
+    "start":"app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp-api",
+    "node.js",
+    "mysql"
+  ],
+  "author": "rian bs",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "mysql2": "^3.1.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.19.4"
+  }
+}
